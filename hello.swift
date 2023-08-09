@@ -31,3 +31,12 @@ for index in 1...5 {
 var array = [String]()
 var fourDoubles = [Double](repeating: 0.0, count: 4)
 
+array.append("Flour")
+
+array += ["Juice"]
+array += ["Chocolate", "Cheese"]
+
+length = array.count
+
+let r = array.removeLast()
+array.insert("New item", at: 0)
