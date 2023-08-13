@@ -40,3 +40,16 @@ length = array.count
 
 let r = array.removeLast()
 array.insert("New item", at: 0)
+
+func test(n1:Int, n2:Int) -> (a:Int, b:Int) {
+    return ((n1 - n2), (n1 + n2))
+}
+let tmp = test(n1:8, n2:3)
+print(tmp.b)
+
+func calc(num: inout Int) {
+    num = num * 5
+}
+var a = 8
+calc(num: &a)
+
