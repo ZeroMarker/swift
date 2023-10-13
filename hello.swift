@@ -36,7 +36,7 @@ array.append("Flour")
 array += ["Juice"]
 array += ["Chocolate", "Cheese"]
 
-length = array.count
+let length = array.count
 
 let r = array.removeLast()
 array.insert("New item", at: 0)
