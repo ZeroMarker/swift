@@ -1,4 +1,4 @@
-let colors = ["red", "blue", "yellow"]
+var colors = ["red", "blue", "yellow"]
 
 colors.append("green")
 colors.remove(at: 0)
@@ -12,13 +12,14 @@ let empolyees = [
 ]
 print(empolyees["job", default: "Unknown"])
 
-let numbers = Set(1, 3, 5)
+var numbers = Set([1, 3, 5])
 numbers.insert(10)
+
 
 enum Week {
     case monday, tuesday, wednesday, thurday, friday
 }
-let day = Week.friday
+var day = Week.friday
 day = .monday
 
 let pi: Double = 3.14

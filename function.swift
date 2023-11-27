@@ -9,9 +9,9 @@ print(a)
 func calc(num: inout Int) {
     num = num * 5
 }
-var a = 8
-calc(num: &a)
-print(a)
+var x = 8
+calc(num: &x)
+print(x)
 
 func printTimes(for number: Int) {
     for i in 1...number {

@@ -18,9 +18,7 @@ func checkPassword(_ password: String) throws -> String{
 }
 
 do {
-    let result = try {
-        checkPassword("12345")
-    }
+    let result = try checkPassword("12345")
     print("result: \(result)")
 }
 catch PasswordError.obvious {
