@@ -6,3 +6,9 @@ swift repl
 
 swift hello.swift
 
+swift package init
+
+swift build
+
+swift test
+
