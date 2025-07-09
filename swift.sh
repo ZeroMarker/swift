@@ -6,7 +6,7 @@ swift repl
 
 swift hello.swift
 
-swift package init
+swift package init --name MyCLI --type executable
 
 swift build
 
